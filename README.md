@@ -116,7 +116,7 @@ TaskFlow-API-Testing-Framework/
 ### 1. Clone Repository & Setup Virtual Environment
 
 ```bash
-git clone https://github.com/your-username/TaskFlow-API-Testing-Framework.git
+git clone https://github.com/DJPATEL001/TaskFlow-API-Testing-Framework.git
 cd TaskFlow-API-Testing-Framework
 
 # Create virtual environment
