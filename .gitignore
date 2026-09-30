@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+
+# Environment & Secrets
+.env
+!.env.example
+
+# Database
+*.db
+*.sqlite3
+
+# Pytest & Reports
+.pytest_cache/
+reports/
+*.html
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

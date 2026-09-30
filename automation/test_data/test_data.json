@@ -1,0 +1,45 @@
+{
+  "valid_user_registration": {
+    "name": "New QA Automation Engineer",
+    "email": "automation_user@example.com",
+    "password": "Test@12345"
+  },
+  "invalid_email_user": {
+    "name": "Invalid Email User",
+    "email": "invalid-email-format",
+    "password": "Test@12345"
+  },
+  "short_password_user": {
+    "name": "Weak Pass User",
+    "email": "weakpass@example.com",
+    "password": "123"
+  },
+  "valid_project": {
+    "name": "Automated Test Project",
+    "description": "Project created during automated test execution",
+    "status": "active"
+  },
+  "invalid_status_project": {
+    "name": "Invalid Project Status",
+    "description": "Project with unaccepted status enum",
+    "status": "invalid_status_value"
+  },
+  "valid_task": {
+    "title": "Automated End-to-End Test Task",
+    "description": "Created via API client during pytest execution",
+    "priority": "high",
+    "status": "todo"
+  },
+  "invalid_priority_task": {
+    "title": "Invalid Priority Task",
+    "description": "Testing invalid priority enum validation",
+    "priority": "super_high",
+    "status": "todo"
+  },
+  "invalid_status_task": {
+    "title": "Invalid Status Task",
+    "description": "Testing invalid status enum validation",
+    "priority": "medium",
+    "status": "in_review"
+  }
+}
